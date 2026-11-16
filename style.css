@@ -1,0 +1,15 @@
+:root{font-family:Inter,system-ui,Arial;color:#e8edf5;background:#0b1220}*{box-sizing:border-box}body{margin:0}.shell{max-width:1120px;margin:auto;padding:28px 20px}header,.brand,.panel-head,.actions,.stats{display:flex;align-items:center;justify-content:space-between;gap:14px}.brand{justify-content:flex-start}.logo{width:42px;height:42px;border-radius:13px;background:#0e806b;display:grid;place-items:center;font-weight:800}.brand small,small{display:block;color:#91a0b5;font-size:12px;margin-top:4px}.pill{border:1px solid #1c755e;color:#67d9ae;border-radius:30px;padding:8px 12px;font-size:11px;font-weight:700}.hero{margin:28px 0 16px;padding:26px;border-radius:18px;background:linear-gradient(120deg,#132a39,#142238);display:flex;justify-content:space-between;align-items:center}.hero h1{font-size:38px;margin:8px 0;color:#75e0b5}.muted{color:#91a0b5;font-size:13px}.hero-note{max-width:250px;border-left:2px solid #e3b45b;padding-left:14px}.hero-note small{line-height:1.5}.stats{margin-bottom:16px}.stats article,.panel{background:#121c2d;border:1px solid #202d42;border-radius:16px;padding:18px}.stats article{flex:1}.stats b{display:block;margin-top:8px}.warn{color:#e5b65e}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}.panel h2{font-size:16px;margin:0 0 16px}.panel-head h2{margin:0}.market,.position,.signal,.trade{display:flex;justify-content:space-between;gap:10px;padding:12px 0;border-bottom:1px solid #243149;font-size:13px}.market:last-child,.position:last-child,.signal:last-child,.trade:last-child{border:0}.signal{display:block}.signal b{color:#e5b65e}.disclaimer{font-size:11px;line-height:1.5;color:#91a0b5}label{display:block;color:#9ba9bd;font-size:12px;margin:14px 0}select,input{display:block;width:100%;margin-top:7px;padding:11px;border:1px solid #2b3a52;border-radius:9px;background:#0c1524;color:#fff}.actions button,button{border:0;border-radius:9px;padding:11px 18px;color:white;font-weight:700;cursor:pointer}.actions button{flex:1}.buy{background:#16835f}.sell{background:#a8444c}.ghost{background:#25344b;font-size:11px}.neutral{color:#d7bd80;border-color:#6e5a2b}footer{text-align:center;color:#697a92;font-size:11px;padding:25px}@media(max-width:720px){.grid{grid-template-columns:1fr}.hero{align-items:flex-start;gap:18px;flex-direction:column}.stats{flex-direction:column;align-items:stretch}.panel-head{align-items:flex-start}}
+.head-actions{display:flex;align-items:center;gap:10px}
+.install-btn{background:#167b65;padding:9px 12px;font-size:11px}
+[hidden]{display:none!important}
+body{padding-bottom:env(safe-area-inset-bottom)}
+@media(max-width:520px){
+ .shell{padding:16px 12px}
+ header{align-items:flex-start;flex-wrap:wrap}
+ .brand{gap:10px}
+ .hero{padding:20px}
+ .hero h1{font-size:32px}
+ .head-actions{width:100%;justify-content:space-between}
+ .panel{padding:15px}
+ .actions button{padding:13px 10px}
+}
